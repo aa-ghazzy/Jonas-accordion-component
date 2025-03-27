@@ -8,7 +8,7 @@ body {
   font-family: sans-serif;
   color: #343a40;
   line-height: 1;
-  background-color: grey;
+  /* background-color: grey; */
 }
 
 .accordion {

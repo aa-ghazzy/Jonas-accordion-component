@@ -42,7 +42,7 @@ function AccordionItem({ index, title, text }) {
   const [isOpen, setIsOpen] = useState(false);
 
   function handleIsOpen() {
-    setIsOpen(() => !isOpen);
+    setIsOpen(!isOpen);
   }
 
   return (
